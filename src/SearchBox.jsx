@@ -15,10 +15,12 @@ export default function SearchBox(){
         console.log(jsonResponse);
     }
     
+    //for handling city
     let handleChange=(event)=> {
         setCity(event.target.value);
     }
 
+    //for handling form submitting events
     let handleSubmit = (event) => {
         event.preventDefault();
         console.log(city);
