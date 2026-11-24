@@ -6,6 +6,12 @@ import "./SearchBox.css";
 export default function SearchBox(){
     const [city, setCity] = useState("");
 
+    const API_URL = "http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}";
+    const API_KEY = "54da89ff7193d7986c794b5c95fbf60d";
+
+    
+    
+    
     let handleChange=(event)=> {
         setCity(event.target.value);
     }
