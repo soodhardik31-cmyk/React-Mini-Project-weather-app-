@@ -1,5 +1,5 @@
 //import './App.css'
-import SearchBox from "./SearchBox"
+import SearchBox from "./components/SearchBox"
 
 function App() {
   
