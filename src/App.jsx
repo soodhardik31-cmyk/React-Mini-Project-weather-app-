@@ -9,7 +9,7 @@ function App() {
   
   return (
     <UserContext.Provider value={username}>
-      <SearchBox />
+      <Profile />
     </UserContext.Provider>
   );
 }
